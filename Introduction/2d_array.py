@@ -1,3 +1,9 @@
 import numpy as np
-arr_2d=np.array([[1,2,3],[4,5,6],[7,8,9]])
+arr_2d=np.array(
+   
+        [[1,2,3],[4,5,6],[7,8,9],[10,11,12]]
+    
+    )
+print(arr_2d.ndim)
+print (arr_2d.shape)
 print("2D Array:\n", arr_2d)
